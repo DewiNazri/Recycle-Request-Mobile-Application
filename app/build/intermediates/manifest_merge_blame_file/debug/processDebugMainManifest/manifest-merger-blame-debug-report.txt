@@ -1,0 +1,214 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.13.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\c347674ce0e4b6093b74c6d81b86c9d3\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.13.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\c347674ce0e4b6093b74c6d81b86c9d3\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.13.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\c347674ce0e4b6093b74c6d81b86c9d3\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.13.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\c347674ce0e4b6093b74c6d81b86c9d3\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.13.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\c347674ce0e4b6093b74c6d81b86c9d3\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:7:5-66:19
+20        android:allowBackup="true"
+20-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.13.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\c347674ce0e4b6093b74c6d81b86c9d3\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:9:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="true"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:10:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:11:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:12:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:13:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.MyApplication"
+31-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:15:9-51
+32        android:usesCleartextTraffic="true" >
+32-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:16:9-44
+33        <activity
+33-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="com.example.myapplication.AddAnnouncement"
+34-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:19:13-44
+35            android:exported="false" />
+35-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:20:13-37
+36        <activity
+36-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:21:9-23:40
+37            android:name="com.example.myapplication.Register"
+37-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:22:13-37
+38            android:exported="false" />
+38-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:23:13-37
+39        <activity
+39-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.example.myapplication.AdminRequest"
+40-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:25:13-41
+41            android:exported="false" />
+41-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:27:9-29:40
+43            android:name="com.example.myapplication.ListItem"
+43-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:28:13-37
+44            android:exported="false" />
+44-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:29:13-37
+45        <activity
+45-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:30:9-32:40
+46            android:name="com.example.myapplication.ListMyRequest"
+46-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:31:13-42
+47            android:exported="false" />
+47-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:32:13-37
+48        <activity
+48-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:33:9-35:40
+49            android:name="com.example.myapplication.ListCustomerRequest"
+49-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:34:13-48
+50            android:exported="false" />
+50-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:35:13-37
+51        <activity
+51-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:36:9-38:40
+52            android:name="com.example.myapplication.CustomerRequest"
+52-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:37:13-44
+53            android:exported="false" />
+53-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:38:13-37
+54        <activity
+54-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:39:9-41:40
+55            android:name="com.example.myapplication.MainPageAdmin"
+55-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:40:13-42
+56            android:exported="false" />
+56-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:41:13-37
+57        <activity
+57-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:42:9-44:40
+58            android:name="com.example.myapplication.EditItem"
+58-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:43:13-37
+59            android:exported="false" />
+59-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:44:13-37
+60        <activity
+60-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:45:9-47:40
+61            android:name="com.example.myapplication.Login"
+61-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:46:13-34
+62            android:exported="false" />
+62-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:47:13-37
+63        <activity
+63-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:48:9-50:40
+64            android:name="com.example.myapplication.AddItem"
+64-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:49:13-36
+65            android:exported="false" />
+65-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:50:13-37
+66        <activity
+66-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:51:9-53:40
+67            android:name="com.example.myapplication.AddRequest"
+67-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:52:13-39
+68            android:exported="false" />
+68-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:53:13-37
+69        <activity
+69-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:54:9-56:40
+70            android:name="com.example.myapplication.MainPageCustomer"
+70-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:55:13-45
+71            android:exported="false" />
+71-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:56:13-37
+72        <activity
+72-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:57:9-65:20
+73            android:name="com.example.myapplication.MainActivity"
+73-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:58:13-41
+74            android:exported="true" >
+74-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:59:13-36
+75            <intent-filter>
+75-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:60:13-64:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:61:17-69
+76-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:61:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:63:17-77
+78-->C:\Users\amani\Downloads\My Application\MyApplication\app\src\main\AndroidManifest.xml:63:27-74
+79            </intent-filter>
+80        </activity>
+81
+82        <provider
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\48cd044e98358c3428040b2e7ee60c56\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\48cd044e98358c3428040b2e7ee60c56\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+84            android:authorities="com.example.myapplication.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\48cd044e98358c3428040b2e7ee60c56\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\48cd044e98358c3428040b2e7ee60c56\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\48cd044e98358c3428040b2e7ee60c56\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\48cd044e98358c3428040b2e7ee60c56\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.3.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\48cd044e98358c3428040b2e7ee60c56\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\amani\.gradle\caches\8.11.1\transforms\0f236ebef3a393681536a11b82843d71\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\amani\.gradle\caches\8.11.1\transforms\0f236ebef3a393681536a11b82843d71\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\amani\.gradle\caches\8.11.1\transforms\0f236ebef3a393681536a11b82843d71\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+94                android:value="androidx.startup" />
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+95        </provider>
+96
+97        <receiver
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+99            android:directBootAware="false"
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+100            android:enabled="true"
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+101            android:exported="true"
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+102            android:permission="android.permission.DUMP" >
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+107                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+110                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+113                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\amani\.gradle\caches\8.11.1\transforms\1e603370a8016298f3e3dc6bdb605a82\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+114            </intent-filter>
+115        </receiver>
+116    </application>
+117
+118</manifest>
