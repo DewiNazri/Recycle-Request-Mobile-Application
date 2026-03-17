@@ -43,17 +43,7 @@ Mobile App (Android)
 
 ---
 
-## 📸 Screenshots
 
-*(Add your screenshots here — very important for recruiters)*
-
-Example:
-
-* Home Screen
-* Request Form
-* Request Status Page
-
----
 
 ## 🚀 How to Run the Project
 
