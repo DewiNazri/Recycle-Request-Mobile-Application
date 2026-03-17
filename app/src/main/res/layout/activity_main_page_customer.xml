@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_page_customer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/cust">
+
+    <!-- Logout Button at Top Right -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="#FF6B6B"
+        android:textColor="#FFFFFF"
+        android:onClick="logoutClicked"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Latest announcement card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardLatestAnnouncement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogout"
+        android:layout_marginTop="24dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="12dp"
+        android:backgroundTint="#FFFFE0"
+        android:layout_margin="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvAnnouncementTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tvAnnouncementMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Message here"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Instruction -->
+    <TextView
+        android:id="@+id/tvInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💡 Long press the card to view/hide older announcements"
+        android:textColor="#555"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_below="@id/cardLatestAnnouncement"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- RecyclerView for older announcements -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvOlderAnnouncements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvInstruction"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"/>
+
+    <!-- View Request Button -->
+    <Button
+        android:id="@+id/viewRequestButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="View Request"
+        android:onClick="viewRequestClicked"
+        android:backgroundTint="#6BCB77"
+        android:layout_below="@id/rvOlderAnnouncements"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Add Request Button -->
+    <Button
+        android:id="@+id/addRequestButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Add Request"
+        android:onClick="addRequestClicked"
+        android:backgroundTint="#6BCB77"
+        android:layout_below="@id/viewRequestButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"/>
+
+</RelativeLayout>

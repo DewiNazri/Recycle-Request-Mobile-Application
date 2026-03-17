@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Login</string>
+    <string name="app_logo_description">App Logo</string>
+    <string-array name="status_options">
+        <item>Pending</item>
+        <item>Completed</item>
+    </string-array>
+</resources>
