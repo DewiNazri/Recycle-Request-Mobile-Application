@@ -75,4 +75,4 @@ Universiti Teknologi MARA (UiTM)
 
 ## 📄 License
 
-This project is for academic and portfolio purposes.
+This project is for academic purposes.
